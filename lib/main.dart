@@ -10,6 +10,7 @@ import 'game_controller.dart';
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
   Util flameUtil = Util();
+  
   await flameUtil.fullScreen();
   await flameUtil.setOrientation(DeviceOrientation.portraitUp);
 //  await provider.ImageProvider.loadAssets();
